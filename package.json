@@ -1,0 +1,51 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "~3.0.0",
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-firebase/analytics": "^7.1.0",
+    "babel-preset-react-native": "2.1.0",
+    "buffer": "^5.2.1",
+    "expo": "^37.0.0",
+    "expo-asset": "~8.1.4",
+    "expo-av": "^8.1.0",
+    "expo-constants": "^9.0.0",
+    "expo-firebase-analytics": "~2.1.1",
+    "expo-firebase-recaptcha": "^1.1.0",
+    "expo-font": "^8.1.1",
+    "expo-linear-gradient": "^8.1.0",
+    "expo-screen-orientation": "^1.0.0",
+    "expo-web-browser": "~8.2.0",
+    "firebase": "7.9.0",
+    "moment": "^2.26.0",
+    "prismic-javascript": "^2.7.1",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "1.1.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-paper": "2.2.8",
+    "react-native-screens": "^2.8.0",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-web": "^0.11.7",
+    "react-native-webview": "8.1.1",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.1.0",
+    "jest-expo": "^37.0.0"
+  },
+  "private": true
+}

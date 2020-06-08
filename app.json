@@ -1,0 +1,42 @@
+{
+  "name": "Rate my seller",
+  "displayName": "Rate my seller",
+  "icon": {
+    "ios": "./assets/icon.png",
+    "android": "./assets/icon.png",
+    "default": "./assets/icon.png"
+  },
+  "expo": {
+    "name": "Rate my seller",
+    "slug": "rate-my-seller",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "scheme": "mla",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.j.ratemyseller",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "package": "com.j.ratemyseller",
+      "versionCode": 2
+    },
+    "description": ""
+  }
+}
