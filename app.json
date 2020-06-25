@@ -14,7 +14,7 @@
       "ios",
       "android"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -31,11 +31,11 @@
     ],
     "ios": {
       "bundleIdentifier": "com.j.ratemyseller",
-      "buildNumber": "1.0.1"
+      "buildNumber": "1.0.2"
     },
     "android": {
       "package": "com.j.ratemyseller",
-      "versionCode": 2
+      "versionCode": 3
     },
     "description": ""
   }
