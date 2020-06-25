@@ -61,18 +61,28 @@ export default class LoginScreen extends React.Component {
                 flexDirection: "row",
                 alignItems: "center"
               }}>
-                <Text style={{
+                 <Text style={{
                   fontSize: 32,
                   color: "white",
                   lineHeight: 40,
                   paddingLeft: 20,
                   paddingRight: 20
                 }}>
-                  Oeuvrez pour un monde sans arnaques
+                  Bienvenue dans Rate My Seller
                 </Text>
+
               </View>
             </View>
             <View style={{marginBottom: 53}}>
+            <Text style={{
+                  fontSize: 16,
+                  color: "white",
+                  lineHeight: 40,
+                  paddingLeft: 20,
+                  paddingRight: 20
+                }}>
+                  Incrivez-vous pour oeuvrer pour un monde sans arnaques
+                </Text>
               <TouchableOpacity
                 style={{marginTop: 12, width: "100%"}}
                 onPress={() => this.setState({showModal:true,loading: true})}>
